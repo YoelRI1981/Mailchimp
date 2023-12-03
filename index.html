@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Mailchimp</title>
+  </head>
+  <body>
+    <img src=".//img/mailchimp.png" class="icon" />
+
+    <h1 class="titulo">Welcome to Mailchimp</h1>
+    <p class="texto">
+      Find your people. Engage your customers. Build your brand. Do it all with
+      Mailchimp's Marketing Platform. Already have an account?
+      <a href="#" class="enlace">Log in</a>
+    </p>
+    <form>
+      <label for="email"><p class="email2">Email</p></label>
+      <input type="email" name="email" id="email" required />
+      <label for="username"><p class="username2">Username</p></label>
+      <input type="text" name="username" id="username" required />
+      <label for="password"><p class="password2">Password</p></label>
+      <input
+        type="password"
+        name=" password"
+        id="password"
+        pattern="(?=.*[a-z])(?=.*[A-Z])(?=.*[0-9])(?=.*[!@#$%^&*_=+-]).{8}"
+      />
+    </form>
+
+    <div>
+      <ul class="lista">
+        <li class="uno">One lowercase character</li>
+        <li class="dos">One Uppercase character</li>
+        <li class="tres">One number</li>
+        <li class="cuatro">One special character</li>
+        <li class="cinco">8 characters minimum</li>
+      </ul>
+    </div>
+
+    <form>
+      <label for="submit"></label>
+      <input type="submit" name="submit" id="submit" value="Sign Up" />
+      <label for="checkbox"></label>
+      <input type="checkbox" name="checkbox" id="checkbox" />
+      <p class="text2">
+        I don't want to receive emails about new Mailchimp products, best
+        prectices, or special offers.
+      </p>
+    </form>
+    <div>
+      <p class="terms">
+        By clicking the "Sign Up" button, you are creating a Mailchimp account,
+        and you agree to Mailchimp's
+        <a class="enlace2" href="https://mailchimp.com/es/legal/terms/"
+          >Terms of Use</a
+        >
+        and
+        <a class="enlace2" href="https://mailchimp.com/es/legal/"
+          >Privacy Policy.</a
+        >
+      </p>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,140 @@
+*{
+    text-decoration: none;
+}
+
+.icon{
+    top: -10px;
+    position: relative;
+    width: 209px;
+    float: left;
+    margin: 50px;
+}
+
+.titulo {
+    font-size: 51px;
+}
+
+.texto {
+    margin: -13px;
+    font-size: 19px;
+    width: 879px;
+}
+.enlace {
+    color: #046da3;
+}
+
+.email2 {
+    font-size: 19px;
+    margin: 43px;
+    font-weight: bold;
+}
+
+#email {
+    position: absolute;
+    top: 209px;
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.username2 {
+    font-size: 19px;
+    margin: 55px;
+    font-weight: bold;
+}
+
+#username {
+    position: absolute;
+    top: 285px;
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+}
+
+.password2 {
+    font-size: 19px;
+    font-weight: bold;
+}
+
+#password {
+    position: absolute;
+    width: 550px;
+    height: 40px;
+    border-radius: 5px;
+    top: 361px;
+    left: 315px;
+}
+
+.lista {
+    position: relative;
+}
+
+.uno {
+    position: absolute;
+    left: 322px;
+    top: 30px;
+}
+
+.dos {
+    position: absolute;
+    left: 322px;
+    top: 60px;
+}
+
+.tres {
+    position: absolute;
+    left: 322px;
+    top: 90px;
+}
+
+.cuatro {
+    position: absolute;
+    top: 30px;
+    left: 615px;
+}
+
+.cinco {
+    position: absolute;
+    top: 60px;
+    left: 615px;
+}
+
+#submit {
+    position: absolute;
+    left: 315px;
+    bottom: 201px;
+    width: 140px;
+    height: 40px;
+    background-color: white;
+    border-width: thin;
+    border-radius: 5px;
+    color: gray;
+}
+
+#checkbox {
+    position: absolute;
+    left: 495px;
+    bottom: 218px;
+    width: 20px;
+    height: 20px;
+}
+
+.text2 {
+    bottom: 168px;
+    position: absolute;
+    left: 536px;
+    width: 300px;
+}
+
+p.terms {
+    width: 533px;
+    position: absolute;
+    bottom: 100px;
+    left: 313px;
+    font-size: 18px;
+}
+
+.enlace2{
+    color: #046da3;
+    text-decoration: underline;
+}
